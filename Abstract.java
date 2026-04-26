@@ -1,6 +1,3 @@
-package programs;
-
-
 abstract class Animal {
     abstract void sound();
 

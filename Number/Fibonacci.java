@@ -1,4 +1,4 @@
-package programs;
+package Number;
 
 import java.util.*;
 

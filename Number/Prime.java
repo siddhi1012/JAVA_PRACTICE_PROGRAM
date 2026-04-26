@@ -1,4 +1,4 @@
-package programs;
+package Number;
 
 import java.util.*;
 
@@ -10,20 +10,20 @@ public class Prime {
         boolean isPrime = true;
 
         if (n <= 1) {
-            isPrime =  false;
-        }else{
-            for(int i=2; i<=n/2; i++){
-                if(n%i == 0){
+            isPrime = false;
+        } else {
+            for (int i = 2; i <= n / 2; i++) {
+                if (n % i == 0) {
                     isPrime = false;
                     break;
                 }
             }
-            
+
         }
 
-        if(isPrime){
+        if (isPrime) {
             System.out.println("Prime Number");
-        }else{
+        } else {
             System.out.println("Not a prime");
         }
     }
