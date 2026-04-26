@@ -1,3 +1,7 @@
+//    *
+//   ***
+//  *****
+
 package Pattern;
 
 public class PyramidPattern {
@@ -9,12 +13,10 @@ public class PyramidPattern {
                 System.out.print(" ");
             }
             // star
-            for(int j=1; j<=2*i-1; i++){
+            for (int j = 1; j <= 2 * i - 1; i++) {
                 System.out.print("*");
             }
             System.out.println();
-
         }
     }
-
 }
